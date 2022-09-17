@@ -1,0 +1,124 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header{
+    width: 100%;
+    margin: 0;
+}
+
+header img {
+    margin-left: 37px;
+}
+
+main {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+main h3 {
+    margin-bottom: 20px;
+}
+
+#header-main h3 {
+    margin-left: 20px;
+}
+
+main h1 {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+nav{
+    align-items: center;
+    flex-direction: column;
+}
+
+nav li {
+   width: 50%;
+   margin: 0;
+   padding-bottom: 12px;
+   text-align: center;
+   border-bottom: 3px solid #f2f2f2;
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav li:hover {
+    border-bottom-color: #0065FC;
+    border-top: unset;
+}
+
+#recherche {
+    margin-left: 40px;
+}
+
+.buttonrecherche span {
+    display: none;    
+}
+
+.buttonrecherche {
+    padding: 15px;
+}
+
+.buttonrecherche i{
+    display: block;
+}  
+
+#filtres h3 {
+    width: 100%;
+}
+
+#hebergement figure {
+    width: 100%;
+}
+
+#activite {
+    padding: 0 25px;
+}
+
+#acti {
+    flex-wrap: wrap;
+    height: unset;
+}
+
+#heta {
+    flex-direction: column-reverse;
+}
+
+#lpp {
+    width: 100%;
+}
+
+#hebergement {
+    width: 100%;
+}
+
+.columnActivites {
+    width: 100%;
+}
+
+.large, .small {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+footer {
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+footer li {
+    font-family: 'raleway';
+    color: unset;
+    margin: 8px 0 8px 0;
+}
+
+footer h3 {
+    font-weight: bold;
+}

@@ -1,0 +1,20 @@
+#heta {
+    flex-direction: column-reverse;
+}
+
+#acti {
+    height: 300px;
+}
+
+#hebergement {
+    width: 100%;
+}
+
+#hebergement figure {
+    width: 50%;
+}
+
+#lpp {
+    width: 100%;
+}
+
