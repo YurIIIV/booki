@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="FR">
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" media="all and (min-width: 798px) and (max-width: 992px)" href="tablet.css">
-	<link rel="stylesheet" media="all and (max-width: 768px)" href="mobile.css">
+	<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 992px)" href="./css/tablet.css">
+	<link rel="stylesheet" media="all and (max-width: 768px)" href="./css/mobile.css">
 	<title>Booki</title>
 	<script src="https://kit.fontawesome.com/3c6c3e03b2.js" crossorigin="anonymous"></script>
 </head>
@@ -15,8 +15,8 @@
 		<nav>
 			<img src="./images/logo/Booki.png" alt="Logo Booki du site internet">
 			<ul>
-				<li><a href="#Heb">Hébergements</a></li>
-				<li><a href="#Act">Activités</a></li>
+				<li><a href="#heb">Hébergements</a></li>
+				<li><a href="#act">Activités</a></li>
 			</ul>
 		</nav>
 	 </header>
@@ -24,18 +24,18 @@
 	<!-- Main -->
 
 	 <main>
-
+       <div id="header-main">
 		<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 		<h3>En plein centre-ville ou en pleine nature</h3>
-		
+	   </div>
     
     <!-- Barre de recherche -->
        
-	  <section id="recherche">
+	  <div id="recherche">
 		<i class="fa-solid fa-location-dot"></i>
 		<input type="text" name="Recherche" placeholder="     Marseille, France">
-		<button class="buttonrecherche" type="button">Rechecher</button>
-	  </section>
+		<button class="buttonrecherche" type="button"><span>Rechercher</span><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+	  </div>
 
 	<!-- Filtres -->
 
@@ -71,9 +71,9 @@
 
     <!-- H et P -->
 
-	   <section id="heta">
+	   <div id="heta">
 	    <section id="hebergement">
-		 <h2>Hébergement à Marseille</h2>
+		 	<h2 id="heb">Hébergement à Marseille</h2>
 		<div id="figure">
 		<figure>
 			<img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre auberge la cannebière">
@@ -82,7 +82,7 @@
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
-				<i class="fa-regular fa-star"></i></div></figcaption> 
+				<i class="gris fa-solid fa-star"></i></div></figcaption> 
         </figure>
 		<figure>
 			<img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="chambre à l'hôtel du port">
@@ -91,7 +91,7 @@
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
-				<i class="fa-solid fa-star"></i></i></div></figcaption> 
+				<i class="fa-solid fa-star"></i></div></figcaption> 
         </figure>
 		<figure>
 			<img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="chambre à l'hôtel les mouettes">
@@ -100,7 +100,7 @@
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
-				<i class="fa-regular fa-star"></i></div></figcaption> 
+				<i class="gris fa-solid fa-star"></i></div></figcaption> 
         </figure>
 		<figure>
 			<img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="chambre à l'hôtel de la mer">
@@ -108,8 +108,8 @@
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
-				<i class="fa-regular fa-star"></i>
-				<i class="fa-regular fa-star"></i></div></figcaption> 
+				<i class="gris fa-solid fa-star"></i>
+				<i class="gris fa-solid fa-star"></i></div></figcaption> 
         </figure>
 		<figure>
 			<img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="chambre à l'auberge le Panier">
@@ -118,7 +118,7 @@
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
-				<i class="fa-regular fa-star"></i></div></figcaption> 
+				<i class="gris fa-solid fa-star"></i></div></figcaption> 
         </figure>
 		<figure>
 			<img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="chambre à l'auberge le Panier">
@@ -127,13 +127,13 @@
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
 				<i class="fa-solid fa-star"></i>
-				<i class="fa-solid fa-star"></i></i></div></figcaption> 
+				<i class="fa-solid fa-star"></i></div></figcaption> 
         </figure>
-		<p><strong>Afficher plus</strong></p>
 	</div>
+	<p class="afficher">Afficher plus</p>
         </section>
 		<section id="lpp">
-			<h2>Les plus populaires<i class="fa-solid fa-star"></i></h2>
+			<h2>Les plus populaires<i class="black fa-solid fa-star"></i></h2>
 		 <div id="image">
 			<figure>
 				<img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre à l'hôtel de la mer">
@@ -151,7 +151,7 @@
 					<i class="fa-solid fa-star"></i>
 					<i class="fa-solid fa-star"></i>
 					<i class="fa-solid fa-star"></i>
-					<i class="fa-regular fa-star"></i></div></figcaption> 
+					<i class="gris fa-solid fa-star"></i></div></figcaption> 
 			</figure>
 			<figure>
 				<img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="chambre à l'auberge le Panier">
@@ -160,46 +160,56 @@
 					<i class="fa-solid fa-star"></i>
 					<i class="fa-solid fa-star"></i>
 					<i class="fa-solid fa-star"></i>
-					<i class="fa-regular fa-star"></i></div></figcaption> 
+					<i class="gris fa-solid fa-star"></i></div></figcaption> 
 			</figure>
 		 </div>
 		</section>
-	   </section>
+	   </div>
 
 
 	   <!-- A -->
 	   
 	   <section id="activite">
-		<h2>Activités à Marseille</h2>
+		<h2 id="act">Activités à Marseille</h2>
 		 <div id="acti">
 			<div class="columnActivites large">
 			
 				<img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="le vieux port">
-				<p>Vieux port</p>
+				<h2><strong>Vieux port</strong></h2>
 		
 			</div>
 			<div class="columnActivites">
 				<article class="small">
+					
 					<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
-					<p>Fort de Pomègues</p>
+					<h2><strong>Fort de Pomègues</strong></h2>
+				    
 				</article>
 				<article class="small">
+					
 					<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
-					<p>Îles du Frioul</p>
+					<h2><strong>Îles du Frioul</strong></h2>
+				    
 				</article>
 			</div>
 			<article class="columnActivites large">
+				
 				<img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
-				<p>Parc National des Calanques</p>
+				<h2><strong>Parc National des Calanques</strong></h2>
+			    
 			</article>
 			<div class="columnActivites">
 				<article class="small">
+					
 					<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-					<p>Notre-Dame-de-la-Garde</p>
+					<h2><strong>Notre-Dame-de-la-Garde</strong></h2>
+				    
 				</article>
 				<article class="small">
+					
 					<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
-					<p>Parc Longchamp</p>
+					<h2><strong>Parc Longchamp</strong></h2>
+				    
 				</article>
 			</div>
 		 </div>
@@ -211,7 +221,6 @@
 	 <!-- Footer -->
 
 	 <footer>
-		<div id="footer-items">
 			<div class="footer-item">
 				<h3>A propos</h3>
                 <ul>
@@ -234,7 +243,6 @@
 					<li>Nous contacter</li>
 				</ul>
 			</div>
-		</div>
 	 </footer>
 
 </body>
